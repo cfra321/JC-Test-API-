@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
-public class TestMoveNowPlaying {
+public class TestMoveAPI {
     String NowPlayingUrl = "https://api.themoviedb.org/3/movie/now_playing?api_key=695aef390f889becc331665f86859072&language=en-US&page=1";
     String baseMovePopularUrl = "https://api.themoviedb.org/3/movie/popular?api_key=695aef390f889becc331665f86859072&language=en-US&page=3";
     @Test
